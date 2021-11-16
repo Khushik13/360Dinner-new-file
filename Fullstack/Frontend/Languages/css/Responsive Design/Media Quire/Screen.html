@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+         <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+<style>
+.box{
+    font-size: 60px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    display: none;
+}
+
+@media (max-width:300px){
+    #box-1{
+        display: block;
+        background-color: violet;
+    }
+}
+@media  (min-width:301px)and (max-width:500px){
+    #box-2{
+        display: block;
+        background-color: rgb(54, 77, 209);
+    }
+}
+
+@media (min-width:501px) and (max-width:900px){
+    #box-3{
+        display: block;
+        background-color: rgb(90, 209, 54);
+    }
+}
+@media (min-width:901px){
+    #box-4{
+        display: block;
+        background-color: rgb(236, 159, 14);
+    }
+}
+
+
+</style>
+
+      <div>
+<div id="box-1" class="box">im a screen of phon  300px</div>
+<div id="box-2" class="box">im a screen of tablet statr 301px to 500px</div>
+<div id="box-3" class="box">im a screen of coputer statr 501px to 900px</div>
+<div id="box-4"class="box">im a screen of large tv statr 901px </div>
+
+      </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
+25%
