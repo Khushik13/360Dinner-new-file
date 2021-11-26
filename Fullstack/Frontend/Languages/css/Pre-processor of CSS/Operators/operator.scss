@@ -1,0 +1,51 @@
+@import './colors';
+
+
+
+
+// h1{
+//     background-color: $co;
+//     font-size: 50px+10px;
+// }
+
+.a1{
+    background-color:  $co;
+}
+.b{
+    background-color:  $co;
+}
+
+#gp{
+    font-size: 30px;
+h1{
+    font-size: 30px;
+  p{
+    font-size: 30px;
+     a{
+         font-size: 400px;
+         background-color: yellow;
+     } 
+  }  
+}
+}
+
+
+@mixin  khusbu($a,$b,$c,$d){
+    width: $a;
+    height: $b;
+    font-size: $c;
+    background-color: $d;
+}
+
+.root{
+   @include  khusbu(200px,100px,40px,red);
+}
+.root1{
+    @include  khusbu(100px,50px,30px,green);
+}
+
+.root2{
+    @include  khusbu(50px,30px,55px,blue);
+}
+
+
