@@ -1,0 +1,21 @@
+
+
+<input id="a1" type="number" value="">
+<input id="a2" type="number" value="">
+<button onclick="fun()">submit</button>
+<button onclick="add()">&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;</button>
+<button onclick="add()">&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;</button>
+<button onclick="fun()">&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;</button>
+<div id="root"></div>
+<script>
+
+    var add=function()
+    {
+      var a=document.getElementById('a1').value
+      var b=document.getElementById('a2').value
+    
+        console.log(parseInt(a)*parseInt(b))
+        document.getElementById('root').innerHTML=parseInt(a)*parseInt(b)
+    }
+  
+</script>
